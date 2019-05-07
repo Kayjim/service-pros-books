@@ -2,7 +2,7 @@
 
 [Live link to site](https://pure-tundra-39629.herokuapp.com/)
 
-[Books Screenshot](https://i.imgur.com/Dsm0kX1.png)
+![Books Screenshot](https://i.imgur.com/Dsm0kX1.png)
 
 ## About
 
