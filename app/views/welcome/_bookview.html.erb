@@ -1,0 +1,29 @@
+<%# Noticed that this could be reused on all the sorting pages so made it a partial %>
+<div class="row">
+<!-- loop to render all books in an array-->
+  <% @books.each do |book| %>
+  <div class="col-md-6 col-md-offset-3">
+    <div class="well">
+      <h1>Title:
+        <%= book['title'] %></h1>
+      <div class="row">
+        <div class="col-md-7">
+          <p>
+            <em>Author</em>:
+            <%= book['author'] %>
+          </p>
+          <p>
+            <%= book['year'] %>
+          </p>
+          <p>
+            <em>isbn:</em>
+            <%= book['isbn'] %>
+          </p>
+        </div>
+        <div class="col-md-5">
+        </div>
+      </div>
+    </div>
+  </div>
+  <% end %>
+</div>
