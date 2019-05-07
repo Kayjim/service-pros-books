@@ -1,24 +1,20 @@
-# README
+# Readme
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+[Live link to site](https://pure-tundra-39629.herokuapp.com/)
 
-Things you may want to cover:
+[Books Screenshot](https://imgur.com/Dsm0kX1)
 
-* Ruby version
+## About
 
-* System dependencies
+This app was built with rails 5.2.3 and ruby 2.6.0 and deployed to Heroku to demonstrate a simple REST api request for data and then rendered with some basic sorting features implemented.
 
-* Configuration
+## Checking the code
 
-* Database creation
+Here's an outline on how to initialize the development version of the application
+1. git clone the repository
+2. bundle install the needed dependencies
+3. start the server with rails s
 
-* Database initialization
+## Constructive Critique
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Pull requests are welcome. For feature requests/bug reports, please file an [issue](https://github.com/Kayjim/service-pros-books/issues).
